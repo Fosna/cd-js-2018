@@ -1,0 +1,76 @@
+> node
+> "ovo je neki tekst"
+'ovo je neki tekst'
+> 'ovo je isto neki tekst'
+'ovo je isto neki tekst'
+> "ovako nesto ne valja'
+"ovako nesto ne valja'
+^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: Invalid or unexpected token
+
+Moze se spremati u varijablu
+> var ant = "tekstic o meni";
+undefined
+> ant
+'tekstic o meni'
+
+Zbog cega ne mozemo bez jednostrukih navodnika.
+> '<p class='red'>lorem...</p>'
+'<p class='red'>lorem...</p>'
+           ^^^
+SyntaxError: Unexpected identifier
+
+
+Kada je zgodno koristiti jednostruke navodnike.
+> '<p class="red">lorem...</p>'
+'<p class="red">lorem...</p>'
+
+
+Spajanje stringova.
+> var bee = "joso";
+undefined
+> ant
+'tekstic o meni'
+> ant + bee
+'tekstic o menijoso'
+
+> ant + " " + bee
+'tekstic o meni joso'
+
+Spremanje novonastalih stringova u varijablu.
+> var dog = ant + " " + bee;
+undefined
+> dog
+'tekstic o meni joso'
+
+
+Duzina stringa
+> "123".lenght
+undefined
+> "123".length
+3
+> ant.length
+14
+
+Dohvacanje pojedinih slova.
+> "abc"[1]
+'b'
+> "abc"[0]
+'a'
+> "abc"[2]
+'c'
+> "abc"[3]
+undefined
+> ant
+'tekstic o meni'
+> ant[0]
+'t'
+> ant[ant.length]
+undefined
+> ant[ant.length - 1]
+'i'
+> ant[ant.length - 2]
+'n'
+>
+
+// Exercises untill (and including): 036_Word_Blanks.js

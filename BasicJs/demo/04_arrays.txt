@@ -1,0 +1,46 @@
+> var jsStudents = ["ant", "bee", "dog"];
+undefined
+> jsStudents
+[ 'ant', 'bee', 'dog' ]
+> jsStudents.length
+3
+> "mad cow".length
+7
+> jsStudents.toString();
+'ant,bee,dog'
+> jsStudents[0]
+'ant'
+> jsStudents[1]
+'bee'
+> jsStudents[2]
+'dog'
+> jsStudents[3]
+undefined
+> jsStudents
+[ 'ant', 'bee', 'dog' ]
+> jsStudents.length
+3
+> jsStudents.length - 1
+2
+> jsStudents[jsStudents.length - 1]
+'dog'
+> jsStudents[jsStudents.length]
+undefined
+> jsStudents.push("eagle")
+4
+> jsStudents
+[ 'ant', 'bee', 'dog', 'eagle' ]
+> jsStudents[jsStudents.length - 1]
+'eagle'
+> jsStudents.pop()
+'eagle'
+> jsStudents
+[ 'ant', 'bee', 'dog' ]
+> jsStudents.pop()
+'dog'
+> jsStudents
+[ 'ant', 'bee' ]
+>
+
+
+Exercises up to and including 054_Stand_in_Line.js

@@ -1,0 +1,96 @@
+Check great resource http://carpediem.hr/PublikacijeCarpeDiem/Publikacije/JavaScript%20skripta.pdf if you get stuck. Page 33 is the best. ;)
+
+Practice execution order
+
+
+for (
+    var i = 1; 
+    i < 5; 
+    i = i + 1
+    ) {
+
+    console.log(i);
+}
+
+Is this the same as?
+for (var i = 1; i < 5; i += 1) {
+    console.log(i);
+}
+
+Is this the same as?
+for (var i = 1; i < 5; i++) {
+    console.log(i);
+}
+
+Is this the same as?
+var end = 5;
+for (var i = 1; i < end; i++) {
+    console.log(i);
+}
+
+
+Is this the same as?
+var end = 5;
+for (var i = 1; i < end; i++) {
+    console.log(end - i);
+}
+
+
+
+What's the output of this code snippet?
+var end = 3;
+for (var i = 0; i < end; i++) {
+    var calculation = i * 2;
+    console.log(calculation);
+}
+
+
+
+What's the output of this code snippet?
+for (var i = 0; i < 3; i++) {
+    console.log("ant");
+}
+
+Is this the same as?
+for (var i = 1; i < 4; i++) {
+    console.log("ant");
+}
+
+Is this the same as?
+for (var i = 1; i <= 3; i++) {
+    console.log("ant");
+}
+
+Is this the same as?
+for (var i = 0; i <= 3; i++) {
+    console.log("ant");
+}
+
+
+What's the output of this code snippet?
+for (var i = 0; i < 5; i = i + 2) {
+    console.log(i);
+}
+
+Is this the same as?
+for (var i = 0; i < 5; i += 2) {
+    console.log(i);
+}
+
+
+Is this the same as?
+for (var i = 0; i < 5; i += 2) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
+
+Is this the same as?
+for (var i = 0; i < 5; i += 2) {
+    if (i % 2 === 0) {
+        console.log(i);
+    } else {
+        console.log("skip");
+    }
+}
+

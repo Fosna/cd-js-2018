@@ -1,0 +1,38 @@
+// Using Node REPEL.
+
+> node
+> 5
+5
+> 5 + 2.6
+7.6
+> 5 - 2.6
+2.4
+> 5 - 2
+3
+> 5 * 0
+0
+> 5 /2
+2.5
+> 5 % 2
+1
+> 5.5 % 2
+1.5
+> var ant = 5;
+undefined
+> var bee = 2.6;
+undefined
+> ant - bee
+2.4
+> ant / bee
+1.923076923076923
+> ant % bee
+2.4
+> ant = ant + 1;
+6
+> ant
+6
+> ant += 1;
+7
+>
+
+// Exercises untill (and including): 006_Understanding_Case_Sensitivity_in_Variables

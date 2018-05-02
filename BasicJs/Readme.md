@@ -4,7 +4,7 @@
 ## Run JavaScript without browser
 Open command prompt.
 
-Navigate to folder with scripts. Ex.: `C:\Programming\cd-js-2017\BasicJs\00_HelloWorld.js`.
+Navigate to folder with scripts. Ex.: `C:\cd-js-2017\BasicJs\00_HelloWorld.js`.
 
 Execute command `node 000_HelloWorld.js`.
 
